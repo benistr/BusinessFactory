@@ -31,7 +31,7 @@ a:link {
 header {
   height: 100px;
   background-color: #f8bf7c;
-  border-radius: 0 0 5px 5px;
+
 }
 
 .top {
@@ -74,6 +74,7 @@ header {
 .top a:hover, .top input:hover { 
   color:#f7931e; 
   cursor:pointer; 
+  font-size: 1.8rem;
 }
 
 /* SECTION DU SITE EN CONTEN*/
@@ -113,7 +114,7 @@ aside {
 .log_area input { 
   width:60%; 
   padding-left:10px; 
-  border-radius: 10px;
+  border-radius: 10px !important;
 }
 
 .log_area input::placeholder { 
@@ -123,7 +124,7 @@ aside {
 .log_area input[type=submit] { 
   width: 90%;
   height: 30px;
-  border-radius: 10px;
+  border-radius: 10px !important;
   background:#f8bf7c; 
   border:none; 
   color:white;
@@ -156,6 +157,7 @@ aside {
 
 .input-group-area{
   width:100%;
+  border-radius: 10px !important;
 }
 
 .input-group input{
@@ -163,11 +165,6 @@ aside {
   display: block;
   width: 100%;
   padding: 8px;
-}
-
-.lock {
-  margin: 6px; 
-  color: #444;
 }
 
 
@@ -286,10 +283,13 @@ article {
 
 .page input { 
   border:none; 
-  background:#efefef; 
+  background-color:#f8bf7c; 
   width:70px; 
-  text-align:right; 
   padding-right: 0px; 
+}
+
+.page input:hover {
+  background-color: #f7931e;
 }
 
 .item { 
@@ -485,6 +485,7 @@ article {
   box-shadow: 1px 1px 12px #856D4D;
   font-size: 14px;
   color: #615F4B;
+  min-height: 80vh;
 } 
 
 .page:hover {
@@ -493,22 +494,21 @@ article {
 
 .page input {
   font-family: "Roboto", sans-serif;
-  background-color: #f7dec2;
-  width: 185px;
+  background-color: #f8bf7c;
+  width: 100%;
   padding:5px;
   font-style: italic;
-  border-radius: 5px;
-  border-style: inset;
+  border-radius: 10px;
 }
 
 .page input[type=file] {
   font-family: "Roboto", sans-serif;
-  background-color: #CDCDCD;
-  width: 185px;
+  background-color: #f8bf7c;
+  width: 100%;
   padding:5px;
   font-style: italic;
-  border-radius: 5px;
-  border-style: inset;
+  border-radius: 10px;
+
 }
 
 .page input[type=submit] {
@@ -553,14 +553,16 @@ text-transform: uppercase;
   flex: 1;
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-self: flex-start;
+  align-items: baseline;
+  margin-top: 16px;
 }
 
 .page input[type=submit] {
   font-family: "Overpass-regular",arial, sans-serif;
   text-transform: uppercase;
   outline: 0;
-  background: #3C3736;
+  background: #f8bf7c;
   width: 100%;
   height: 100%;
   border: 0;
@@ -575,8 +577,8 @@ text-transform: uppercase;
 
 .page input[type=submit]:hover,.form button:active,.form button:focus {
   font-family: "Overpass-heavy",arial, sans-serif;
-  background: #f6b466;
-  color: #3C3736;
+  background: #f7931e;
+  color: white;
 }
 
 .special {

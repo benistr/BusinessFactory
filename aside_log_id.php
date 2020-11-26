@@ -14,7 +14,7 @@ echo '<img src='.$picture.'?'.filectime($picture).' border=\'0\' alt=\'\' />';
 ?>
 <h2 class="aside-title">> Informations</h2>
 <div class="nom">
-<?php echo $_SESSION['nom'] . '<br>' ?>
+<?php echo '<span class="glyphicon glyphicon-ok" style="font-size: 25px; margin: 6px; color: #888888"></span>' . $_SESSION['nom'] . '<br>' ?>
 </div>
 <div class="slogan">
 <?php echo $_SESSION['slogan'] . '<br><br>' ?>
