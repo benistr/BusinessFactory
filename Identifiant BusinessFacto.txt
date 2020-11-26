@@ -1,0 +1,29 @@
+Identifiant BusinessFacto
+
+
+
+OVH ADMIN PANEL 
+
+https://www.ovh.com/auth/?action=disconnect&onsuccess=https%3A%2F%2Fwww.ovh.com%2Fmanager%2Fweb%2Findex.html%23%2Fconfiguration
+
+ID : Godard.businessfacto@gmail.com
+PW : aA0678796869
+
+
+
+OVH FTP 
+
+https://net2ftp.cluster026.hosting.ovh.net/?username=businessyy
+
+ID : businessyy
+PW : aA0678796869
+
+
+
+OVH BDD
+
+https://phpmyadmin.cluster026.hosting.ovh.net/index.php
+
+SERVER : businessyy007.mysql.db
+ID : businessyy007
+PW : aA0678796869

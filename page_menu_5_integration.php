@@ -1,0 +1,62 @@
+
+
+<!--REINTEGRATION DES _POST DANS LES VARIABLES _SESSION-->
+<?php 
+$_SESSION['dividendes_p2'] = $_POST['dividendes_p2'];
+$_SESSION['montant_p2'] = $_POST['montant_p2'];
+$_SESSION['equipement1achat_p2'] = $_POST['equipement1achat_p2'];
+$_SESSION['equipement2achat_p2'] = $_POST['equipement2achat_p2'];
+$_SESSION['equipement3achat_p2'] = $_POST['equipement3achat_p2'];
+$_SESSION['budgetmaintenance_p2'] = $_POST['budgetmaintenance_p2'];
+$_SESSION['embaucheouvrier_p2'] = $_POST['embaucheouvrier_p2'];
+$_SESSION['licenciementouvrier_p2'] = $_POST['licenciementouvrier_p2'];
+$_SESSION['indiceouvrier_p2'] = $_POST['indiceouvrier_p2'];
+$_SESSION['budgetsocial_p2']  = $_POST['budgetsocial_p2'];
+/* $_SESSION['communicationglobale_p2']  = $_POST['communicationglobale_p2'];
+$_SESSION['polyvalents_p2']  = $_POST['polyvalents_p2']; */
+$_SESSION['product1licence_p2']  = $_POST['product1licence_p2'];
+$_SESSION['product1production_p2']  = $_POST['product1production_p2'];
+$_SESSION['product1qualite_p2']  = $_POST['product1qualite_p2'];
+$_SESSION['product1soustraitance_p2'] = $_POST['product1soustraitance_p2'];
+$_SESSION['product1pdv_p2']  = $_POST['product1pdv_p2'];
+$_SESSION['product1communication_p2'] = $_POST['product1communication_p2'];
+$_SESSION['product1commerciaux_p2'] = $_POST['product1commerciaux_p2'];
+$_SESSION['product1indicefdv_p2'] = $_POST['product1indicefdv_p2'];
+$_SESSION['product1icreditclient_p2'] = $_POST['product1icreditclient_p2'];
+$_SESSION['product2licence_p2']  = $_POST['product2licence_p2'];
+$_SESSION['product2production_p2']  = $_POST['product2production_p2'];
+$_SESSION['product2qualite_p2']  = $_POST['product2qualite_p2'];
+$_SESSION['product2soustraitance_p2'] = $_POST['product2soustraitance_p2'];
+$_SESSION['product2pdv_p2']  = $_POST['product2pdv_p2'];
+$_SESSION['product2communication_p2'] = $_POST['product2communication_p2'];
+$_SESSION['product2commerciaux_p2'] = $_POST['product2commerciaux_p2'];
+$_SESSION['product2indicefdv_p2'] = $_POST['product2indicefdv_p2'];
+$_SESSION['product2icreditclient_p2'] = $_POST['product2icreditclient_p2'];
+$_SESSION['product3licence_p2']  = $_POST['product3licence_p2'];
+$_SESSION['product3production_p2']  = $_POST['product3production_p2'];
+$_SESSION['product3qualite_p2']  = $_POST['product3qualite_p2'];
+$_SESSION['product3soustraitance_p2'] = $_POST['product3soustraitance_p2'];
+$_SESSION['product3pdv_p2']  = $_POST['product3pdv_p2'];
+$_SESSION['product3communication_p2'] = $_POST['product3communication_p2'];
+$_SESSION['product3commerciaux_p2'] = $_POST['product3commerciaux_p2'];
+$_SESSION['product3indicefdv_p2'] = $_POST['product3indicefdv_p2'];
+$_SESSION['product3icreditclient_p2'] = $_POST['product3icreditclient_p2'];
+$_SESSION['product4licence_p2']  = $_POST['product4licence_p2'];
+$_SESSION['product4production_p2']  = $_POST['product4production_p2'];
+$_SESSION['product4qualite_p2']  = $_POST['product4qualite_p2'];
+$_SESSION['product4soustraitance_p2'] = $_POST['product4soustraitance_p2'];
+$_SESSION['product4pdv_p2']  = $_POST['product4pdv_p2'];
+$_SESSION['product4communication_p2'] = $_POST['product4communication_p2'];
+$_SESSION['product4commerciaux_p2'] = $_POST['product4commerciaux_p2'];
+$_SESSION['product4indicefdv_p2'] = $_POST['product4indicefdv_p2'];
+$_SESSION['product4icreditclient_p2'] = $_POST['product4icreditclient_p2'];
+$_SESSION['product5licence_p2']  = $_POST['product5licence_p2'];
+$_SESSION['product5production_p2']  = $_POST['product5production_p2'];
+$_SESSION['product5qualite_p2']  = $_POST['product5qualite_p2'];
+$_SESSION['product5soustraitance_p2'] = $_POST['product5soustraitance_p2'];
+$_SESSION['product5pdv_p2']  = $_POST['product5pdv_p2'];
+$_SESSION['product5communication_p2'] = $_POST['product5communication_p2'];
+$_SESSION['product5commerciaux_p2'] = $_POST['product5commerciaux_p2'];
+$_SESSION['product5indicefdv_p2'] = $_POST['product5indicefdv_p2'];
+$_SESSION['product5icreditclient_p2'] = $_POST['product5icreditclient_p2'];
+?>
