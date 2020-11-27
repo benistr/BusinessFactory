@@ -485,7 +485,6 @@
 <div class="submit_decision">	
 	<input type=hidden name="menu" value=9>
 	<input type=hidden name="refreshneuf" value=1>
-
 	<input type="submit" value="Envoyer la décision 6"/>
 </form>
 </div>
