@@ -1,9 +1,9 @@
 
-<div class="dashtitle"> DECISION 2 </div>
+<div class="dashtitle"><span class="glyphicon glyphicon-briefcase" style="font-size: 25px; margin: 6px; color: #888888"></span> DECISION 2 </div>
 	
 	<div class="dashbox">
 
-		<div class="dashtitre">Vos machines (avant décision) : </div>
+		<div class="dashtitre"><span class="glyphicon glyphicon-wrench" style="font-size: 25px; margin: 6px; color: #888888"></span> Vos machines (avant décision) : </div>
 
 		<div class="dashsubtitre">
 			<?php 
@@ -29,7 +29,7 @@
 
 	<div class="dashbox">
 		
-		<div class="dashtitre">Votre effectif (avant décision) : </div>
+	<div class="dashtitre"><span class="glyphicon glyphicon-list-alt" style="font-size: 25px; margin: 6px; color: #888888"></span> Votre effectif (avant décision) : </div>
 
 		<div class="dashsubtitre">
 			<?php

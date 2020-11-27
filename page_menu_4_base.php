@@ -16,7 +16,7 @@
 	
 	<div class="box_content">
 		<div id="d1">	<!--DECISIONS GENERALES-->
-			<div class="titre">Décisions Générales</div><form action="index.php" method="post" enctype="multipart/form-data">
+			<div class="titre"><span class="glyphicon glyphicon-euro" style="font-size: 25px; margin: 6px; color: #888888"></span>> Décisions Générales</div><form action="index.php" method="post" enctype="multipart/form-data">
 
 			<!--item_dividendes_p1-->
 			<!--VERIFICATION ITEM/LOCK + READONLY INPUT -->
@@ -40,7 +40,7 @@
 		</div>
 	
 		<div id="d2">	<!--INVESTISSEMENT DE PRODUCTION-->
-			<div class="titre">Investissement de production</div><form action="index.php" method="post" enctype="multipart/form-data">
+			<div class="titre"><span class="glyphicon glyphicon-cog" style="font-size: 25px; margin: 6px; color: #888888"></span>> Investissement de production</div><form action="index.php" method="post" enctype="multipart/form-data">
 
 			<!--item_machine1_p1-->
 			<!--VERIFICATION ITEM/LOCK + READONLY INPUT -->
@@ -84,7 +84,7 @@
 		</div>
     
 	    <div id="d3">
-			<!--GESTION DU PERSONNEL-->	<div class="titre">Gestion du personnel</div>
+			<!--GESTION DU PERSONNEL-->	<div class="titre"><span class="glyphicon glyphicon-search" style="font-size: 25px; margin: 6px; color: #888888"></span>> Gestion du personnel</div>
 			<form action="index.php" method="post" enctype="multipart/form-data">
 
 			<!--item_recrutementouvrier_p1-->
